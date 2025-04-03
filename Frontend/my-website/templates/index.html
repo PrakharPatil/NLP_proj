@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>AI Text Generator</title>
+    <link rel="stylesheet" href="/styles/style.css" />
+    <link rel="stylesheet" href="/styles/components/navbar.css" />
+    <link rel="stylesheet" href="/styles/components/about.css" />
+    <link rel="stylesheet" href="/styles/components/contact.css" />
+  </head>
+  <body>
+    {% include "navbar.html" %}
+
+    <section class="hero">
+      <h1>AI-Powered Text Generation</h1>
+      <p>
+        Experience seamless, real-time text creation with our advanced
+        transformer-based Model.</p>
+        <a href="/chat" class="cta-button">Start Writing</a>
+        <img src="/assets/shapes/shape1.png" class="floating-shape" />
+        <img src="/assets/shapes/shape3.png" class="floating-shape" />
+        <img src="/assets/shapes/shape2.png" class="floating-shape" />
+        <!-- <img src="/assets/shapes/shape4.png" class="floating-shape" /> -->
+      </p>
+    </section>
+
+    {% include "about.html" %} {% include "contact.html" %}
+
+    <script src="/scripts/main.js"></script>
+  </body>
+</html>
