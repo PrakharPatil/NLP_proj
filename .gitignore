@@ -1,5 +1,5 @@
 *.txt
-Data/
+
 __pycache__/
 *.pyc
 *.pyo
